@@ -1,0 +1,150 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  margin: 0%;
+  padding: 0%;
+}
+
+header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  height: 69px;
+  border-bottom: seashell;
+  width: 100%;
+  position: fixed;
+}
+
+.topLeft h1 {
+  color: seashell;
+  font-size: 50px;
+  margin: auto;
+  margin-left: 10px;
+}
+
+.topRight ul {
+  color: seashell;
+  list-style: none;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.topRight li {
+  display: inline-flex;
+  margin: auto;
+}
+
+.topRight a {
+  color: seashell;
+}
+
+.pic1 {
+  display: flex;
+  justify-content: center;
+  background-image: url("pictures/pic_1.jpeg");
+  height: 700px;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pic1 .pic1MiddleLine {
+  background-color: black;
+  width: 1200px;
+  margin: auto;
+}
+
+.pic1 .pic1MiddleLine h2 {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 15px;
+  width: auto;
+  color: seashell;
+}
+
+.pic1 .pic1MiddleLine h4 {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 15px;
+  width: auto;
+  color: seashell;
+}
+
+.heading {
+  width: 1000px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+
+.heading h2,
+h4 {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: auto;
+}
+
+.teaOfTheMonth {
+  width: 1000px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.locations {
+  background-image: url("pictures/img3-locations-background.jpeg");
+  height: 500px;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.locations h1 {
+  text-align: center;
+  margin-bottom: 15px;
+  padding-top: 60px;
+}
+
+.locations .threeLines {
+  display: flex;
+  justify-content: center;
+}
+
+.locations .threeLines .location1 {
+  width: 300px;
+  background-color: black;
+  text-align: center;
+  margin-left: auto;
+  margin-right: 40px;
+}
+
+.locations .threeLines .location2 {
+  width: 300px;
+  background-color: black;
+  text-align: center;
+  margin-right: 40px;
+}
+
+.locations .threeLines .location3 {
+  width: 300px;
+  background-color: black;
+  text-align: center;
+  margin-right: auto;
+}
+
+.endOfThePage {
+  height: 200px;
+  text-align: center;
+  margin: auto;
+}
+
+footer {
+  text-align: left;
+  margin-left: 20px;
+}
